@@ -42,7 +42,7 @@ function Socials() {
       <p className="mt-2.5 sm:max-lg:text-xs sm:max-lg:mt-1 uppercase text-sm font-light">social</p>
       <div className="ml-12 flex flex-col">
         <p className="text-4xl sm:max-lg:text-2xl tracking-tight font-semibold leading-normal">Instagram</p>
-        <p className="text-4xl sm:max-lg:text-2xl tracking-tight font-semibold leading-normal">WhatsAPp</p>
+        <p className="text-4xl sm:max-lg:text-2xl tracking-tight font-semibold leading-normal">WhatsApp</p>
       </div>
     </div>
   );
