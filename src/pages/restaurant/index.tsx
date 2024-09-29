@@ -8,6 +8,13 @@ import { ease } from "../../utils/ease";
 import { Transition } from "../../components/transition";
 import { useScrollToTop } from "../../hooks/useScrollToTop";
 
+import r1 from "../../assets/images/restau/1.jpg";
+import r2 from "../../assets/images/restau/2.jpg";
+import r3 from "../../assets/images/restau/3.jpg";
+import r4 from "../../assets/images/restau/4.jpg";
+import r5 from "../../assets/images/restau/5.jpg";
+import r6 from "../../assets/images/restau/6.jpg";
+
 export function Restaurant() {
   useScrollToTop();
 
@@ -117,48 +124,12 @@ function HeroDescription({ description, tags, location }: { description: string;
 function Images() {
   return (
     <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0, transition: { delay: 2, duraiton: 0.4 } }} className="flex flex-col gap-5 mt-24 mb-[40vh]">
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/1.jpg"
-        className="w-full object-cover"
-      />
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/2.jpg"
-        className="w-full object-cover"
-      />
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/3.jpg"
-        className="w-full object-cover"
-      />
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/4.jpg"
-        className="w-full object-cover"
-      />
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/5.jpg"
-        className="w-full object-cover"
-      />
-      <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }}
-        viewport={{ once: true }}
-        src="/public/images/restaurant/1/6.jpg"
-        className="w-full object-cover"
-      />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r1} className="w-full object-cover" />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r2} className="w-full object-cover" />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r3} className="w-full object-cover" />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r4} className="w-full object-cover" />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r5} className="w-full object-cover" />
+      <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.4, delay: 0.2 } }} viewport={{ once: true }} src={r6} className="w-full object-cover" />
     </motion.div>
   );
 }
