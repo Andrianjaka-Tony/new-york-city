@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open Sans.ttf");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Open Sans";
+}
+
+.family-bu {
+  font-family: "BU";
+}
+
+.family-open-sans {
+  font-family: "Open Sans";
+}
+
+.parent-font {
+  font-family: inherit;
+}
